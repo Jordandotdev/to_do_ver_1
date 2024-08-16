@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
       title: 'Tick Off',
       theme: Provider.of<ThemeProvider>(context).themeData,
       routes: {
-        '/': (context) => HomePage(),
+        '/home': (context) => HomePage(),
         '/signup': (context) => SignUp(),
-        '/login': (context) => LoginPage(),
+        '/': (context) => LoginPage(),
       },
     );
   }
